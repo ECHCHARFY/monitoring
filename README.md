@@ -1,4 +1,4 @@
-# Installing (using Helm) and Configuring Prometheus and Grafana in Kubernetes Cluster
+## Installing (using Helm) and Configuring Prometheus and Grafana in Kubernetes Cluster
 
 
 # 1. Install Prometheus in Kubernetes Cluster using Helm
@@ -35,7 +35,7 @@ helm repo update
 
 ## b. Install Grafana
 ```bash
-helm install [RELEASE_NAME] grafana/grafana
+helm install grafana grafana/grafana -n monitoring
 ```
 
 ## c. Access the Grafana UI
